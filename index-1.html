@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>webpack demo test</title>
+  <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</head>
+<body>
+<!-- 美好的世界献上祝福-->
+  <%= htmlWebpackPlugin.options.date %>  
+  <script src="<%= htmlWebpackPlugin.files.chunks.a.entry %>"></script>
+</body>
+</html>
